@@ -1,4 +1,5 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+export const experimental_ppr = true;
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -10,3 +11,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
+// note:- Must Read
+
+//So far, you've learned about static and dynamic rendering, and how to stream dynamic content that depends on data. In this chapter, let's learn how to combine static rendering, dynamic rendering, and streaming in the same route with Partial Prerendering (PPR).
+
+//partial prerendring is used for :-notice a performance improvement in production. Next.js will prerender the static parts of your route and defer the dynamic parts until the user requests them.
