@@ -6,7 +6,7 @@ import { fetchRevenue } from '@/app/lib/data';
 import { Suspense } from 'react';
 import { RevenueChartSkeleton ,  LatestInvoicesSkeleton,} from '@/app/ui/skeletons';
 import { fetchLatestInvoices, fetchCardData, } from '@/app/lib/data';
-import CardWrapper from '@/app/ui/dashboard/cards';
+
 
 
 
