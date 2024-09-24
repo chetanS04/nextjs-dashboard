@@ -4,8 +4,8 @@ import { fetchCustomers } from '@/app/lib/data';
 
 
 
-export default async function Page({ params }: { params: { id: string } }) {
-  const id = params.id;
+export default async function Page( ) {
+  // const id = params.id;
   const [customers] = await Promise.all([
     fetchCustomers(),
   ]);

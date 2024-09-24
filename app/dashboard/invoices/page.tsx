@@ -17,8 +17,7 @@ export default async function Page({
   const query = searchParams?.query || '';
   const currentPage = Number(searchParams?.page) || 1;
 
-  // Replace this with the actual logic to calculate total pages
-  const totalPages = 10; // Adjust this based on your data
+ 
 
   return (
     <>
